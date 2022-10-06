@@ -1,0 +1,45 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "$id": "https://raw.githubusercontent.com/AltaColina/json-schemas/main/folk/artist-info-schema.json",
+    "id": "https://raw.githubusercontent.com/AltaColina/json-schemas/main/folk/artist-info-schema.json",
+    "title": "JSON schema for folk artist",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "Full name of the artist."
+        },
+        "shortName": {
+            "type": "string",
+            "description": "Short name of the artist."
+        },
+        "year": {
+            "type": "integer",
+            "description": "Year estabilished."
+        },
+        "isYearUncertain": {
+            "type": "boolean",
+            "description": "Whether year value is uncertain."
+        },
+        "country": {
+            "type": "string",
+            "description": "ISO-3 code for the country where the artist is estabilished."
+        },
+        "district": {
+            "type": "string",
+            "description": "Native name of the district-equivalent region where the artist is estabilished."
+        },
+        "municipality": {
+            "type": "string",
+            "description": "Native name of the Municipality-equivalent region where the artist is estabilished."
+        },
+        "parish": {
+            "type": "string",
+            "description": "Native name of the parish-equivalent region where the artist is estabilished."
+        },
+        "isAbroad": {
+            "type": "boolean",
+            "description": "Whether the artist is estabilished is the representation zone."
+        }
+    }
+}
