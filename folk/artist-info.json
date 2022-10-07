@@ -1,13 +1,13 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema",
-    "$id": "https://raw.githubusercontent.com/AltaColina/json-schemas/main/folk/artist-info-schema.json",
-    "id": "https://raw.githubusercontent.com/AltaColina/json-schemas/main/folk/artist-info-schema.json",
+    "$id": "https://raw.githubusercontent.com/AltaColina/json-schemas/main/folk/artist-info.json",
+    "id": "https://raw.githubusercontent.com/AltaColina/json-schemas/main/folk/artist-info.json",
     "title": "JSON schema for folk artist",
     "type": "object",
     "properties": {
         "name": {
             "type": "string",
-            "description": "Full name of the artist."
+            "description": "Full name of the artist.",
         },
         "shortName": {
             "type": "string",
@@ -41,5 +41,6 @@
             "type": "boolean",
             "description": "Whether the artist is estabilished is the representation zone."
         }
-    }
+    },
+    "required": [ "name", "shortName", "year", "country", "isAbroad" ]
 }
