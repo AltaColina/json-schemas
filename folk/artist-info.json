@@ -7,7 +7,7 @@
     "properties": {
         "name": {
             "type": "string",
-            "description": "Full name of the artist.",
+            "description": "Full name of the artist."
         },
         "shortName": {
             "type": "string",
