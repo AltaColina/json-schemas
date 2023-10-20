@@ -27,7 +27,9 @@
             "properties": {
                 "countryCode": {
                     "type": "string",
-                    "description": "ISO-2 code for the country where the artist is estabilished."
+                    "description": "ISO-2 code for the country where the artist is estabilished.",
+                    "minLength": 2,
+                    "maxLength": 2
                 },
                 "countryName": {
                     "type": "string",
